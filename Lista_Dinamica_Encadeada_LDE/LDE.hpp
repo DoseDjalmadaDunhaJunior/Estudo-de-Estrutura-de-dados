@@ -27,30 +27,11 @@ public:
             anterior->proximo = novo;
         }
     }
-
-    //a funcao insere esta fora de ordem
-    void insere(int valor){
-        No* novo = new No(valor);
-        No* anterior = nullptr;
-        No* atual = primeiro;
-        while(atual){
-            anterior = atual;
-            atual = atual->proximo;
-        }
-        atual = novo;
-        if(anterior == nullptr){
-            primeiro = novo;
-        }
-        else{
-            anterior->proximo = novo;
-        }
-    }
-
     //a funcao abaixo apenas imprime
     void imprime(){
         No* anterior = nullptr;
         No* atual = primeiro;
-        while(atual){
+        while(atual && (atual->proximo != primeiro)){
             int ver = atual->valor;
             cout<<atual->valor<<endl;
             anterior = atual;

@@ -9,9 +9,11 @@ using namespace std;
 class No {
 public:
     //para gravar o proximo valor
-No* proximo = NULL;
+No* proximo = nullptr;
     //para gravar o numero que vai ter
-int valor = NULL;
+int valor = 0;
+    //para gravar o numero anterior
+No* anterior = nullptr;
 
 No(int num){
     valor = num;
