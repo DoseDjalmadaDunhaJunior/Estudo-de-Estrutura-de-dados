@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/Fila.cpp
+Fila.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/Fila.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/Fila.hpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/No.hpp
+iostream
+-
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/main.cpp
+Fila.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Fila_Dinamica/Fila.hpp
+
