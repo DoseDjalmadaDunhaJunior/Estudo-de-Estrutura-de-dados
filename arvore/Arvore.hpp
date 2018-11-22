@@ -7,7 +7,7 @@
 #include "No.hpp"
 class Arvore {
 private:
-    No* raiz = new No();
+    No *raiz = new No();
 public:
 
     void insere(int n) {
@@ -40,8 +40,37 @@ public:
         }
     }
 
-    void imprime(){
+    void imprime() {
+        No *atual;
+        No *pai = new No();
+        atual = raiz;
+        while (raiz->direita != nullptr && !raiz->direita->lido) {
+            if ((atual->direita == nullptr) || (atual->direita->lido)) {
+                if ((atual->esquerda == nullptr) || (atual->esquerda->lido)) {
+                    cout << atual->num << endl;
+                    atual->lido = true;
+                    atual = atual->pai;
+                } else {
+                    atual = atual->esquerda;
+                }
+            } else {
+                atual = atual->direita;
+            }
 
+        }
+        while (raiz->esquerda != nullptr && !raiz->esquerda->lido) {
+            if ((atual->esquerda == nullptr) || (atual->esquerda->lido)) {
+                if ((atual->direita == nullptr) || (atual->direita->lido)) {
+                    cout << atual->num << endl;
+                    atual->lido = true;
+                    atual = atual->pai;
+                } else {
+                    atual = atual->direita;
+                }
+            } else {
+                atual = atual->esquerda;
+            }
+        }
     }
 
     ~Arvore(){
@@ -50,7 +79,8 @@ public:
                 if(pivo->direita == nullptr){
                     if(pivo->esquerda == nullptr){
                         No* temp = pivo;
-                        delete pivo;
+                        int ver = temp->num;
+                        delete temp;
                         pivo = raiz;
                         puts("um foi apagado");
                     }
@@ -80,6 +110,7 @@ public:
             }
 
     }
+
 };
 
 

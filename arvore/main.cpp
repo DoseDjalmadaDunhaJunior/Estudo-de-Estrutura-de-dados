@@ -7,6 +7,7 @@ int main() {
     oi.insere(4);
     oi.insere(5);
     oi.insere(6);
+    oi.imprime();
 
     return 0;
 }

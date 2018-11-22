@@ -12,6 +12,7 @@ public:
     No* pai = nullptr;
     No* direita = nullptr;
     No* esquerda = nullptr;
+    bool lido = false;
 
 };
 
