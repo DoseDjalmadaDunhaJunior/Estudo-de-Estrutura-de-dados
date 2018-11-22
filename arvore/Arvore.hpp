@@ -19,6 +19,7 @@ public:
         } else {
             No *pivo = raiz;
             while (ok) {
+                int ver = pivo->num;
                 if (n >= pivo->num) {
                     if (pivo->direita == nullptr) {
                         pivo->direita = novo;
@@ -33,7 +34,7 @@ public:
                         novo->pai = pivo;
                         ok = false;
                     } else {
-                        raiz->esquerda = novo;
+                        pivo = pivo->esquerda;
                     }
                 }
             }
@@ -72,7 +73,7 @@ public:
             }
         }
     }
-
+/*
     ~Arvore(){
         No* pivo = raiz;
             while(raiz->direita != nullptr){
@@ -110,7 +111,7 @@ public:
             }
 
     }
-
+*/
 };
 
 
