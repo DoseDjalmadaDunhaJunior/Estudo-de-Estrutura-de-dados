@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/Arvore.cpp
+Arvore.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/Arvore.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/Arvore.hpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/No.hpp
+iostream
+-
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/main.cpp
+Arvore.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/Arvore.hpp
+

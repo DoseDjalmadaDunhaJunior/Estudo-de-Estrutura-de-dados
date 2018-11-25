@@ -1,13 +1,43 @@
 //
-// Created by djalma cunha on 21/11/18.
+// Created by djalma cunha on 24/11/18.
 //
 
-#ifndef ARVORE_ARVORE_HPP
-#define ARVORE_ARVORE_HPP
+#ifndef AVL_ARVORE_HPP
+#define AVL_ARVORE_HPP
 #include "No.hpp"
 class Arvore {
 private:
     No *raiz = new No();
+
+    void leftRotate(No* aux){
+        No* pai = aux;
+        No* dir = aux->direita;
+        No* esq = aux->esquerda;
+
+        aux->esquerda = pai;
+        aux->direita = esq;
+        aux = dir;
+    }
+
+    void rightRotate(No* aux){
+        No* pai = aux;
+        No* dir = aux->direita;
+        No* esq = aux->esquerda;
+
+        aux->esquerda = pai;
+        aux->direita = esq;
+        aux = dir;
+    }
+
+    No* balanceia(No* pai){
+        if(pai->tam > 1){
+            leftRotate(pai);
+        }
+        else if(pai->tam < -1){
+            rightRotate(pai);
+        }
+    }
+
 public:
 
     void insere(int n) {
@@ -22,6 +52,7 @@ public:
                 int ver = pivo->num;
                 if (n >= pivo->num) {
                     if (pivo->direita == nullptr) {
+                        novo->tam = 1;
                         pivo->direita = novo;
                         novo->pai = pivo;
                         ok = false;
@@ -30,6 +61,7 @@ public:
                     }
                 } else if (n < pivo->num) {
                     if (pivo->esquerda == nullptr) {
+                        novo->tam = 1;
                         pivo->esquerda = novo;
                         novo->pai = pivo;
                         ok = false;
@@ -37,6 +69,7 @@ public:
                         pivo = pivo->esquerda;
                     }
                 }
+                balanceia(pivo);
             }
         }
     }
@@ -77,4 +110,4 @@ public:
 };
 
 
-#endif //ARVORE_ARVORE_HPP
+#endif //AVL_ARVORE_HPP
