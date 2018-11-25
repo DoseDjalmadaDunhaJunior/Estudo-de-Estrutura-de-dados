@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/Heap.cpp
+Heap.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/Heap.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/Heap.hpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/No.cpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/No.hpp
+iostream
+-
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/main.cpp
+Heap.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/Heap.hpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/Heap/No.hpp
+

@@ -1,20 +1,22 @@
 //
-// Created by djalma cunha on 24/11/18.
+// Created by djalma cunha on 25/11/18.
 //
 
-#ifndef AVL_NO_HPP
-#define AVL_NO_HPP
+#ifndef AVL_MESMO_NO_HPP
+#define AVL_MESMO_NO_HPP
+
 #include <iostream>
 using namespace std;
-class No {
+template <typename T>
+class No{
 public:
-    int num = NULL;
-    No* pai = nullptr;
-    No* direita = nullptr;
-    No* esquerda = nullptr;
-    int tam = 0;
-    bool lido = false;
+    T val;
+    No* esq;
+    No* dir;
+    T altura;
 };
 
 
-#endif //AVL_NO_HPP
+
+
+#endif //AVL_MESMO_NO_HPP

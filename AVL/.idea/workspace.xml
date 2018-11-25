@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="AVL" targetName="AVL" />
+      <config projectName="AVL_MESMO" targetName="AVL_MESMO" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,19 +11,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1532a7c-9505-49bd-927d-779857ee4fdb" name="Default Changelist" comment="">
+    <list default="true" id="9c48510b-da97-477a-9461-12e55c6d87ac" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arvore.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arvore.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVL.hpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/No.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/No.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore/Arvore.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore/Arvore.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore/cmake-build-debug/CMakeFiles/arvore.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore/cmake-build-debug/CMakeFiles/arvore.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore/cmake-build-debug/arvore" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore/cmake-build-debug/arvore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/Heap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/Heap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/No.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heap/No.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,41 +37,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="253900462">
+    <session id="-1406606757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="28" />
-          <entry key="hpp" value="689" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="717" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="algorithm" value="1" />
           <entry key="cpp" value="2" />
           <entry key="hpp" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="hpp" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -77,25 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Arvore.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-              <folding>
-                <element signature="e#165#361#0" />
-                <element signature="e#367#564#0" />
-                <element signature="e#570#766#0" />
-                <element signature="e#610#1551#0" />
-                <element signature="e#1813#2340#0" />
-                <element signature="e#1557#2691#0" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -103,8 +88,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/No.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AVL.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#127#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="2710" selection-start-line="2710" selection-end-line="2710" />
             </state>
           </provider>
         </entry>
@@ -117,14 +123,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/No.hpp" />
+        <option value="$PROJECT_DIR$/AVL.hpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Arvore.hpp" />
+        <option value="$PROJECT_DIR$/No.hpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="361" />
     <option name="y" value="23" />
     <option name="width" value="974" />
     <option name="height" value="800" />
@@ -140,8 +145,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="AVL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AVL" type="462c0819:PsiDirectoryNode" />
+              <item name="AVL_MESMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AVL_MESMO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVL">
-    <configuration name="AVL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AVL" TARGET_NAME="AVL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AVL" RUN_TARGET_NAME="AVL">
+  <component name="RunManager" selected="Application.AVL_MESMO">
+    <configuration name="AVL_MESMO" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AVL_MESMO" TARGET_NAME="AVL_MESMO" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AVL_MESMO" RUN_TARGET_NAME="AVL_MESMO">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -179,28 +184,27 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.AVL" />
+      <item itemvalue="Application.AVL_MESMO" />
     </list>
   </component>
   <component name="ToolWindowManager">
-    <frame x="361" y="23" width="974" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="974" height="800" extended-state="0" />
     <layout>
+      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -213,48 +217,50 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Arvore.hpp</url>
-          <line>76</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Arvore.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/No.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/AVL.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/No.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arvore.hpp">
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="116">
+          <caret line="2710" selection-start-line="2710" selection-end-line="2710" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVL.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#165#361#0" />
-            <element signature="e#367#564#0" />
-            <element signature="e#570#766#0" />
-            <element signature="e#610#1551#0" />
-            <element signature="e#1813#2340#0" />
-            <element signature="e#1557#2691#0" />
+            <element signature="e#127#139#0" expanded="true" />
           </folding>
         </state>
       </provider>

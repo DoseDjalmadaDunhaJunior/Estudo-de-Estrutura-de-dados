@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL
+# Install script for directory: /Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

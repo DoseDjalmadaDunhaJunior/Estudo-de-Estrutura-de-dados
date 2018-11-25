@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/AVL.cpp
+AVL.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/AVL.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/AVL.hpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/No.cpp
+No.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/No.hpp
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/No.hpp
+iostream
+-
+
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/main.cpp
+AVL.hpp
+/Volumes/HD_EXTERNO/paradas_de_algoritmo/Quarto_semestre/estudo_de_estrutura_de_dados/AVL_MESMO/AVL.hpp
+
